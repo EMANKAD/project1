@@ -1,0 +1,347 @@
+/* ----------------------------------------------------------------
+     [ 01 Start Basics ]
+-----------------------------------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  list-style: none;
+  word-wrap: break-word;
+}
+
+body {
+  color: #000;
+  font-weight: 400;
+  font-size: 16px;
+  overflow-x: hidden !important;
+  background-color: #f1f1f1;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+span, a, a:hover {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,h2,h3,h4,h5,h6{
+font-family: 'Oswald', sans-serif;
+}
+
+/* ----------------------------------------------------------------
+     [ 01 Start navbar ]
+-----------------------------------------------------------------*/
+.top-bar{
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+}
+
+.top-bar .links a{
+  margin-right: 30px;
+}
+
+.top-bar .links a:last-of-type{
+  float: right;
+  margin: 0;
+}
+
+/* ----------------------------------------------------------------
+     [ 01 Start header ]
+-----------------------------------------------------------------*/
+header{
+  background-color: #fff;
+}
+
+header .top-head{
+  text-align: center;
+  padding: 60px 0;
+}
+
+header .top-head h1{
+  font-weight: bold;
+}
+
+header .top-head h6 span{
+  background-color: #000;
+  padding: 5px 10px;
+  color: #fff;
+}
+
+header .img{
+  background-image: url(../img/jane.jpg);
+  background-size: cover;
+  height: 1200px;
+  background-repeat: no-repeat;
+  width: 100%;
+  color: #fff;
+}
+
+header .img h5{
+  padding-top: 40%;
+  font-size: 43px;
+  font-weight: bold;
+}
+
+header .img h2{
+  font-size: 64px;
+}
+
+header .img .button{
+  background-color: rgba(250,250,250,0.6);
+  color: #000;
+  padding: 10px 20px;
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+/*=====================*/
+.post{
+  width: 66%;
+  margin-right: 2%;
+  margin-left: 2%;
+  float: left;
+}
+
+
+article{
+  background-color: #fff;
+  margin-top: 30px;
+  padding: 15px;
+  margin-bottom: 50px;
+}
+
+article .article-head{
+  padding: 30px 0;
+  text-align: center;
+}
+
+article .article-head h3{
+  margin-bottom: 15px;
+}
+
+article p{
+  margin-top: 15px;
+}
+
+article button{
+  background: #fff;
+  padding: 5px 10px;
+  border: 1px solid #999;
+  margin-bottom: 50px;
+}
+
+article button.Replies{
+  position: relative;
+  float: right;
+  background-color: #000;
+  color: #fff;
+  padding-right: 50px;
+}
+
+article button.Replies span{
+  position: absolute;
+  top: 5px;
+  right: 8px;
+  width: 28px;
+  height: 24px;
+  background-color: #fff;
+  color: #111;
+}
+
+article .article-footer{
+  padding: 30px;
+  border-top: 1px solid #80808030;
+  display: none;
+}
+
+article .article-footer img{
+  width: 20%;
+  float: left;
+}
+
+article .article-footer h5, article .article-footer p{
+  width: 75%;
+  float: left;
+  padding-left: 60px;
+}
+
+article .article-footer h5{
+  padding-top: 40px;
+}
+
+article .article-footer h5 span{
+  font-size: 15px;
+  color: #777;
+}
+
+/*=====================*/
+aside{
+  width: 28%;
+  margin-right: 2%;
+  height: 1000px;
+  float: right;
+}
+
+aside .items{
+  margin-bottom: 30px;
+}
+
+aside .top-post{
+  background-color: #000;
+  color: #fff;
+}
+
+aside .top-post .info{
+  padding: 15px;
+}
+
+aside .items .aside-post-title{
+  background-color: #000;
+  color: #fff;
+  padding: 15px;
+}
+
+aside .popular ul li{
+  border-bottom: 1px solid #80808030;
+  overflow: hidden;
+  padding: 20px;
+  padding-bottom: 0;
+  background-color: #fff;
+}
+
+aside .popular ul li:hover{
+  background-color: #f2f2f2;
+}
+
+aside .popular ul li img{
+  width: 12%;
+  margin-right: 30px;
+  float: left;
+}
+
+aside .popular ul li .info{
+  padding-top: 5px;
+}
+
+aside .advertise{
+  background-color: #fff;
+  height: 300px;
+}
+
+aside .advertise .info{
+    height: 66%;
+    background-color: #f1f1f1;
+    width: 92%;
+    margin: 4%;
+    text-align: center;
+    padding-top: 20%;
+
+}
+
+aside .tags{
+  background-color: #fff;
+}
+
+aside .tags span{
+  font-size: 14px;
+  padding: 2px 4px;
+  background-color: #f1f1f1;
+  margin: 10px 3px;
+}
+
+aside .tags span:hover{
+  background-color: #000;
+  color: #fff;
+}
+
+aside .inspiration .info{
+  padding: 15px;
+  background-color: #fff;
+}
+
+aside .inspiration .info img{
+  width: 47%;
+  margin: 1%;
+  margin-bottom: 2%;
+}
+
+aside .follow .info{
+  background-color: #fff;
+  font-size: 21px;
+  padding: 15px;
+}
+
+aside .subscribe .info{
+  background-color: #fff;
+  padding: 8px;
+}
+
+aside .subscribe .info form input{
+  width: 100%;
+  padding: 5px;
+}
+
+aside .subscribe .info form input:focus{
+  border: 2px solid cornflowerblue
+}
+
+aside .subscribe .info form label{
+  font-size: 15px;
+}
+
+aside .subscribe .info form button{
+  text-align: center;
+  padding: 5px;
+  background-color: #F44336;
+  color: #fff;
+  width: 100%;
+  border: 1px solid #F44336;
+  margin-top: 15px;
+}
+
+aside .subscribe .info form button:hover{
+  background-color: #ccc;
+  color: #000;
+  border: 1px solid #ccc;
+}
+
+
+
+/*========================*/
+footer{
+  background-color: #616161;
+  height: 200px;
+  padding-top: 70px;
+}
+
+footer button{
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  font-size: 18px;
+  border: 1px solid #000;
+}
+
+footer button i{
+  padding-right: 7px;
+}
+
+footer button:hover{
+  background-color: #ccc;
+  color: #000;
+  border: 1px solid #ccc;
+}
+
+
+
+
+
+
+
